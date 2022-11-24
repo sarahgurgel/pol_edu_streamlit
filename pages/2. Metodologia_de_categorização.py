@@ -1,6 +1,5 @@
-import plotly.graph_objects as go
 import streamlit as st
-import pandas as pd
+
 
 st.markdown('''
     # Metodologia para categorização das escolas conforme IEX.
