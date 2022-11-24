@@ -2,14 +2,17 @@ import streamlit as st
 
 
 st.markdown('''
-    # Metodologia para categorização das escolas conforme IEX.
+    # METODOLOGIA DE CATEGORIZAÇÃO DAS ESCOLAS CONFORME PREVISÃO DO IEx
     #\n
-    ### Machine Learning:
+    ### Obtenção dos resultados de categorização das escolas por Machine Learning:
     ##### ▪ TPOT para Auto ML
     ##### ▪ CatBoostClassifier
-    #\n
-    ### Link para acesso ao "Notebook" do Google Colab com os modelos de Machine Learning:
-    ##### ▪ COLOCAR LINK DO GITHUB PARA OS NOTEBOOKS
+       #\n
+    ##### Link para acesso ao "Notebook" do Google Colab com os modelos de Machine Learning:
+    ###### ▪ COLOCAR LINK DO GITHUB PARA OS NOTEBOOKS
+     #\n
+    ### Protótipo de visualização dos resultados obtidos:
+    ##### ▪ Streamlit
     #\n
     ### Fonte de dados:
     ##### ▪ Dados de previsão e repasse do PDDE: Sistema de Ações Educacionais do PDDE do Fundo Nacional de Desenvolvimento da Educação (SAE/PDDE/FNDE/MEC).
