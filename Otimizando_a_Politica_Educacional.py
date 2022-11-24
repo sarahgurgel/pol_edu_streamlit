@@ -37,7 +37,7 @@ st.markdown('''```''')
 st.latex(r'''IEx = \left(\frac{VTE}{VTD}\right)''')
 st.markdown('''```''')
 st.markdown('''  ##### ▪ Onde:
-    ###### - IEx é o indicador de execução dos recursos orçamentários
-    ###### - VTE é o valor total executado, calculado pela diferença entre o Valor Total Disponível no período e o saldo do último mês do período.
-    ###### - VTD é o valor total repassado durante o período, somado ao saldo disponível no mês anterior do período.
+    ###### - IEx é o Indicador de Execução dos recursos orçamentários;
+    ###### - VTE é o Valor Total Executado, calculado pela diferença entre o Valor Total Disponível no período e o saldo do último mês do período;
+    ###### - VTD é o Valor Total Repassado durante o período, somado ao saldo disponível no mês anterior do período.
     # ''')
