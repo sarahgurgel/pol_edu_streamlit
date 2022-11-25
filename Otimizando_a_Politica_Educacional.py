@@ -41,3 +41,8 @@ st.markdown('''  ##### ▪ Onde:
     ###### - VTE é o Valor Total Executado, calculado pela diferença entre o Valor Total Disponível no período e o saldo do último mês do período;
     ###### - VTD é o Valor Total Repassado durante o período, somado ao saldo disponível no mês anterior do período.
     # ''')
+
+from PIL import Image
+image = Image.open('raw_data/mapa_iex.png')
+
+st.image(image, caption='Sunrise by the mountains')
