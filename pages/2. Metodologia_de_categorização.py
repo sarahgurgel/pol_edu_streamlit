@@ -5,11 +5,10 @@ st.markdown('''
     # METODOLOGIA DE CATEGORIZAÇÃO DAS ESCOLAS CONFORME PREVISÃO DO IEx
     #\n
     ### Obtenção dos resultados de categorização das escolas por Machine Learning:
-    ##### ▪ TPOT para Auto ML
     ##### ▪ CatBoostClassifier
        #\n
     ##### Link para acesso ao "Notebook" do Google Colab com os modelos de Machine Learning:
-    ###### ▪ COLOCAR LINK DO GITHUB PARA OS NOTEBOOKS
+    ###### ▪ https://github.com/Fernandateireis/pol_edu
      #\n
     ### Protótipo de visualização dos resultados obtidos:
     ##### ▪ Streamlit
