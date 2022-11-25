@@ -24,25 +24,28 @@ st.markdown(''' # OTIMIZANDO A POLÍTICA EDUCACIONAL
     ##### ▪ Mais de 33 milhões de alunos alcançados
     ##### ▪ 30 anos de programa
     #\n
-    ## Recursos Orçamentários: ''')
+    ## Recursos: ''')
 
 col1, col2 = st.columns(2)
 col1.metric("Orçamento anual", "R$ 2,2 bilhões")
 col2.metric("Saldo acumulado", "R$ 1.1 bilhão")
 
 st.markdown(''' #\n
-    ## Índice de Execução -IEx dos Recursos Orçamentários:
+    ## Índice de Execução -IEx dos Recursos:
     ##### ▪ Fórmula: ''')
 st.markdown('''```''')
 st.latex(r'''IEx = \left(\frac{VTE}{VTD}\right)''')
 st.markdown('''```''')
 st.markdown('''  ##### ▪ Onde:
-    ###### - IEx é o Indicador de Execução dos recursos orçamentários;
+    ###### - IEx é o Indicador de Execução dos Recursos;
     ###### - VTE é o Valor Total Executado, calculado pela diferença entre o Valor Total Disponível no período e o saldo do último mês do período;
     ###### - VTD é o Valor Total Repassado durante o período, somado ao saldo disponível no mês anterior do período.
     # ''')
 
 from PIL import Image
-image = Image.open('raw_data/mapa_iex.png')
 
-st.image(image, caption='Media do IEx por localidade')
+
+
+image2 = Image.open('raw_data/mapa_iex.png')
+
+st.image(image2, caption='Media de IEx por localidade no ano de 2021')
