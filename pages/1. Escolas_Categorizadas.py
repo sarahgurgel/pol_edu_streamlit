@@ -26,7 +26,9 @@ else:
         df=df[df['Município']==option2]
 
 classe = st.slider('Selecione uma classe de IEx:', 1,4)
-
+#classe = st.radio(
+    #"Selecione uma classe de IEx:",
+    #('1', '2'))
 
 df=df[df['classe']==classe]
 
@@ -55,10 +57,16 @@ fig = go.Figure(data=go.Scattergeo(
                 color='rgba(102, 102, 102)'
             ),
             colorscale = 'rainbow',
-            cmin = 0,
-            color = df['IEX'],
-            cmax = df['IEX'].max(),
-            colorbar_title="Previsão do IEx"
+            cmin = 1,
+            color = df['classe'],
+            cmax = 4,
+            colorbar_title="Previsão do IEx",
+            #colorbar = dict(
+            #titleside = "right",
+            #outlinecolor = "rgba(68, 68, 68, 0)",
+            #ticks = "outside",
+            #showticksuffix = "last",
+            #   dtick = 1
         )))
 
 
